@@ -1,0 +1,23 @@
+### GET示例
+GET http://localhost:8080/api/users
+Accept: application/json
+
+### POST示例（JSON请求体）
+POST 127.0.0.1:8080/register
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "12345678"
+}
+
+### POST示例（JSON请求体）
+POST 127.0.0.1:8080/login
+Content-Type: application/json
+
+{
+"username": "admin",
+"password": "12345678"
+}
+
+###http://127.0.0.1:8080/login.html
